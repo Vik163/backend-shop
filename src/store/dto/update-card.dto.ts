@@ -1,6 +1,4 @@
-import { Document } from 'mongoose';
-
-export interface Card extends Document {
+export class UpdateCardDto {
   readonly image: string;
   readonly description: string;
   readonly name: string;
